@@ -1,0 +1,400 @@
+
+Answer: 1
+Answer: 10
+Answer: 100
+Answer: 101
+Answer: 102
+Answer: 103
+Answer: 104
+Answer: 105
+Answer: 106
+Answer: 107
+Answer: 108
+Answer: 109
+Answer: 11
+Answer: 110
+Answer: 111
+Answer: 112
+Answer: 113
+Answer: 114
+Answer: 115
+Answer: 116
+Answer: 117
+Answer: 118
+Answer: 119
+Answer: 12
+Answer: 120
+Answer: 121
+Answer: 122
+Answer: 123
+Answer: 124
+Answer: 125
+Answer: 126
+Answer: 127
+Answer: 128
+Answer: 129
+Answer: 13
+Answer: 130
+Answer: 131
+Answer: 132
+Answer: 133
+Answer: 134
+Answer: 135
+Answer: 136
+Answer: 137
+Answer: 138
+Answer: 139
+Answer: 14
+Answer: 140
+Answer: 141
+Answer: 142
+Answer: 143
+Answer: 144
+Answer: 145
+Answer: 146
+Answer: 147
+Answer: 148
+Answer: 149
+Answer: 15
+Answer: 150
+Answer: 151
+Answer: 152
+Answer: 153
+Answer: 154
+Answer: 155
+Answer: 156
+Answer: 157
+Answer: 158
+Answer: 159
+Answer: 16
+Answer: 160
+Answer: 161
+Answer: 162
+Answer: 163
+Answer: 164
+Answer: 165
+Answer: 166
+Answer: 167
+Answer: 168
+Answer: 169
+Answer: 17
+Answer: 170
+Answer: 171
+Answer: 172
+Answer: 173
+Answer: 174
+Answer: 175
+Answer: 176
+Answer: 177
+Answer: 178
+Answer: 179
+Answer: 18
+Answer: 180
+Answer: 181
+Answer: 182
+Answer: 183
+Answer: 184
+Answer: 185
+Answer: 186
+Answer: 187
+Answer: 188
+Answer: 189
+Answer: 19
+Answer: 190
+Answer: 191
+Answer: 192
+Answer: 193
+Answer: 194
+Answer: 195
+Answer: 2
+Answer: 20
+Answer: 21
+Answer: 22
+Answer: 23
+Answer: 24
+Answer: 25
+Answer: 26
+Answer: 27
+Answer: 28
+Answer: 29
+Answer: 3
+Answer: 30
+Answer: 31
+Answer: 32
+Answer: 33
+Answer: 34
+Answer: 35
+Answer: 36
+Answer: 37
+Answer: 38
+Answer: 39
+Answer: 4
+Answer: 40
+Answer: 41
+Answer: 42
+Answer: 43
+Answer: 44
+Answer: 45
+Answer: 46
+Answer: 47
+Answer: 48
+Answer: 49
+Answer: 5
+Answer: 50
+Answer: 51
+Answer: 52
+Answer: 53
+Answer: 54
+Answer: 55
+Answer: 56
+Answer: 57
+Answer: 58
+Answer: 59
+Answer: 6
+Answer: 60
+Answer: 61
+Answer: 62
+Answer: 63
+Answer: 64
+Answer: 65
+Answer: 66
+Answer: 67
+Answer: 68
+Answer: 69
+Answer: 7
+Answer: 70
+Answer: 71
+Answer: 72
+Answer: 73
+Answer: 74
+Answer: 75
+Answer: 76
+Answer: 77
+Answer: 78
+Answer: 79
+Answer: 8
+Answer: 80
+Answer: 81
+Answer: 82
+Answer: 83
+Answer: 84
+Answer: 85
+Answer: 86
+Answer: 87
+Answer: 88
+Answer: 89
+Answer: 9
+Answer: 90
+Answer: 91
+Answer: 92
+Answer: 93
+Answer: 94
+Answer: 95
+Answer: 96
+Answer: 97
+Answer: 98
+Answer: 99
+Fichier ASP de sortie : egfr20.lp
+ka("AKT1") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1_3") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kA("ERBB1_3") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kA("IGF1R") kA("ERBB1_2") kB("ERBB2_3") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") kB("ERBB2_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kB("ERBB2_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kA("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB1") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1_3") kB("IGF1R") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kA("ERBB1_2") kB("IGF1R") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kA("ERBB1_3") kB("IGF1R") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kA("ERBB1_2") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("ERBB1") kB("IGF1R") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("IGF1R") kA("ERBB1_2") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("IGF1R") kA("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kA("IGF1R") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("ERBB2_3") kB("IGF1R") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("IGF1R") kA("ERBB1_2") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") kB("ERBB2_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("IGF1R") kA("ERBB1_3") kB("ERBB2_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kA("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("AKT1") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kA("CycE1") kA("p21") kB("p27") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kA("CycE1") kA("p27") kA("p21") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kA("CycE1") kA("p27") kB("p21") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kA("CycE1") kB("p27") kB("p21") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kA("p21") kB("p27") kB("CycE1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kA("p27") kA("p21") kB("CycE1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kA("p27") kB("p21") kB("CycE1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK2") kB("p27") kB("p21") kB("CycE1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kA("CycD1") kB("p27") kB("p21") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kA("p21") kA("CycD1") kB("p27") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kA("p21") kB("p27") kB("CycD1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kA("p27") kA("CycD1") kB("p21") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kA("p27") kA("p21") kA("CycD1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kA("p27") kA("p21") kB("CycD1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kA("p27") kB("p21") kB("CycD1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK4") kB("p27") kB("p21") kB("CycD1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK6") kA("CycD1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CDK6") kB("CycD1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("AKT1") kB("MYC") kB("MEK1") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("ERalpha") kA("AKT1") kB("MYC") kB("MEK1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("ERalpha") kA("MYC") kA("AKT1") kB("MEK1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("ERalpha") kA("MYC") kB("MEK1") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("ERalpha") kB("MYC") kB("MEK1") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kA("AKT1") kB("MYC") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kA("ERalpha") kA("AKT1") kB("MYC") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kA("ERalpha") kA("MYC") kA("AKT1") sL_foc(0) sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kA("ERalpha") kA("MYC") kB("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kA("ERalpha") kB("MYC") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kA("MYC") kA("AKT1") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kA("MYC") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MEK1") kB("MYC") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MYC") kA("AKT1") kB("MEK1") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kA("MYC") kB("MEK1") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycD1") kB("MYC") kB("MEK1") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycE1") kA("MYC") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("CycE1") kB("MYC") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("EGF") sL_foc(0) sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERalpha") kA("AKT1") kB("MEK1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERalpha") kA("MEK1") kA("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERalpha") kA("MEK1") kB("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERalpha") kB("MEK1") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_2") kA("ERBB1") kA("ERBB2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_2") kA("ERBB1") kB("ERBB2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_2") kA("ERBB2") kB("ERBB1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_2") kB("ERBB2") kB("ERBB1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_3") kA("ERBB1") kA("ERBB3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_3") kA("ERBB1") kB("ERBB3") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_3") kA("ERBB3") kB("ERBB1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1_3") kB("ERBB3") kB("ERBB1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1") kA("EGF") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB1") kB("EGF") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB2_3") kA("ERBB2") kA("ERBB3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB2_3") kA("ERBB2") kB("ERBB3") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB2_3") kA("ERBB3") kB("ERBB2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB2_3") kB("ERBB3") kB("ERBB2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB2") kA("EGF") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB2") kB("EGF") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB3") kA("EGF") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("ERBB3") kB("EGF") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kA("AKT1") kB("ERBB2_3") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kA("ERalpha") kA("AKT1") kB("ERBB2_3") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kA("ERalpha") kB("ERBB2_3") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kA("ERBB2_3") kA("AKT1") kB("ERalpha") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kA("ERBB2_3") kA("ERalpha") kA("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kA("ERBB2_3") kA("ERalpha") kB("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kA("ERBB2_3") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("IGF1R") kB("ERBB2_3") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1_3") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB2_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kA("ERBB1_3") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kA("IGF1R") kA("ERBB1_2") kB("ERBB2_3") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") kB("ERBB2_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kB("ERBB2_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kA("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB1") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1_3") kB("IGF1R") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kA("ERBB1_2") kB("IGF1R") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kA("ERBB1_3") kA("ERBB1_2") kB("IGF1R") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kA("ERBB1_3") kB("IGF1R") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kA("ERBB1_2") kB("ERBB1_3") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kA("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kA("IGF1R") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("ERBB1") kB("IGF1R") kB("ERBB1_3") kB("ERBB1_2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("IGF1R") kA("ERBB1_2") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("IGF1R") kA("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kA("IGF1R") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("ERBB2_3") kB("IGF1R") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("IGF1R") kA("ERBB1_2") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("IGF1R") kA("ERBB1_3") kA("ERBB1_2") kB("ERBB2_3") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("IGF1R") kA("ERBB1_3") kB("ERBB2_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kA("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MEK1") kB("IGF1R") kB("ERBB2_3") kB("ERBB1_3") kB("ERBB1_2") kB("ERBB1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kA("AKT1") kB("MEK1") kB("ERalpha") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kA("ERalpha") kA("AKT1") kB("MEK1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kA("ERalpha") kB("MEK1") kB("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kA("MEK1") kA("AKT1") kB("ERalpha") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kA("MEK1") kA("ERalpha") kA("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kA("MEK1") kA("ERalpha") kB("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kA("MEK1") kB("ERalpha") kB("AKT1") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("MYC") kB("MEK1") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("AKT1") kA("CDK4") kB("MYC") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("AKT1") kB("MYC") kB("ERalpha") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("CDK4") kB("MYC") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kA("AKT1") kA("CDK4") kB("MYC") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kA("AKT1") kB("MYC") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kA("CDK4") kB("MYC") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kA("MYC") kA("AKT1") kA("CDK4") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kA("MYC") kA("AKT1") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kA("MYC") kA("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kA("MYC") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("ERalpha") kB("MYC") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("MYC") kA("AKT1") kA("CDK4") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("MYC") kA("AKT1") kB("ERalpha") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("MYC") kA("CDK4") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kA("MYC") kB("ERalpha") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p21") kB("MYC") kB("ERalpha") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("AKT1") kA("CDK2") kB("MYC") kB("ERalpha") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("AKT1") kA("CDK4") kA("CDK2") kB("MYC") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("AKT1") kA("CDK4") kB("MYC") kB("ERalpha") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("AKT1") kB("MYC") kB("ERalpha") kB("CDK4") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("CDK2") kB("MYC") kB("ERalpha") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("CDK4") kA("CDK2") kB("MYC") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("CDK4") kB("MYC") kB("ERalpha") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("AKT1") kA("CDK2") kB("MYC") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("AKT1") kA("CDK4") kA("CDK2") kB("MYC") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("AKT1") kA("CDK4") kB("MYC") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("AKT1") kB("MYC") kB("CDK4") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("CDK2") kB("MYC") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("CDK4") kA("CDK2") kB("MYC") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("CDK4") kB("MYC") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kA("AKT1") kA("CDK2") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kA("AKT1") kA("CDK4") kA("CDK2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kA("AKT1") kA("CDK4") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kA("AKT1") kB("CDK4") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kA("CDK2") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kA("CDK4") kA("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kA("CDK4") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kA("MYC") kB("CDK4") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("ERalpha") kB("MYC") kB("CDK4") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kA("AKT1") kA("CDK2") kB("ERalpha") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kA("AKT1") kA("CDK4") kA("CDK2") kB("ERalpha") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kA("AKT1") kA("CDK4") kB("ERalpha") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kA("AKT1") kB("ERalpha") kB("CDK4") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kA("CDK2") kB("ERalpha") kB("CDK4") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kA("CDK4") kA("CDK2") kB("ERalpha") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kA("CDK4") kB("ERalpha") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kA("MYC") kB("ERalpha") kB("CDK4") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("p27") kB("MYC") kB("ERalpha") kB("CDK4") kB("CDK2") kB("AKT1") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kA("CDK2") kA("CDK6") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kA("CDK2") kB("CDK6") kB("CDK4") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kA("CDK4") kA("CDK2") kA("CDK6") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kA("CDK4") kA("CDK2") kB("CDK6") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kA("CDK4") kA("CDK6") kB("CDK2") sL_foc(1) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kA("CDK4") kB("CDK6") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kA("CDK6") kB("CDK4") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+ka("pRB") kB("CDK6") kB("CDK4") kB("CDK2") sL_foc(0) result("Solution OK! Parameters are sL_foc(*)") 
+Modèle de Thomas d'entrée : egfr20.ig
+Models      : 195   
+  Prepare   : 0.020
+  Prepro.   : 0.010
+Process Hitting d'entrée : egfr20.ph
+SATISFIABLE
+  Solving   : 0.010
+Time        : 0.040
