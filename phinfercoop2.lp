@@ -35,6 +35,7 @@ must_be_cs(A) :- action(_,_,A,J,K), #abs(J-K) != 1.
 cannot_be_cs_f(A) :- sort(A,P), P < 3.
 temp_hitter(A) :- action(A,_,_,_,_).
 cannot_be_cs_f(A) :- is_sort(A), not temp_hitter(A).
+cannot_be_cs_f(A) :- action(A,_,A,_,_).
 :- must_be_cs(A), cannot_be_cs_f(A).
 
 % Sortes possiblement coopératives
@@ -52,12 +53,15 @@ temp_at_least_one_cooperation(A,J) :- is_process(A,I), is_process_of_ecs(J), pre
 :- is_process_of_ecs(J), is_sort(A), predec_ecs(A), not temp_at_least_one_cooperation(A,J).
 
 % Contrainte : un unique point fixe par config
+% FIXME: À revoir pour coller à la définition du papier
+%        (énumérer les configurations des prédécesseurs directs)
 %ep(CS,A,I) :- is_process(A,I), is_process(A,J), predec_ecs(A,CS), not ep(CS,A,J), J != I.
 1 {ep(A,I) : is_process(A,I)} 1 :- predec_ecs(A).
 ecs_not_p(J) :- is_process_of_ecs(J), ep(A,I), not cooperation(A,I,J).
 ecs_p(J) :- is_process_of_ecs(J), not ecs_not_p(J).
 exists_ecs_p :- ecs_p(J).
-%cannot_be_cs(CS) :- ecs(CS), ecs_p(J), ecs_p(K), J != K.  % Non : car de représentation de plusieurs processus
+cannot_be_cs(CS) :- ecs(CS), ecs_p(J), ecs_p(K), J != K.  % Non : cas de représentation de plusieurs processus
+                                                          % Si : comportement non désiré
 cannot_be_cs(CS) :- ecs(CS), is_process_of_ecs(J), not exists_ecs_p.
 
 

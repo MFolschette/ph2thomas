@@ -38,7 +38,6 @@ cannot_be_cs(A) :- is_sort(A), not temp_hitter(A).
 :- must_be_cs(A), cannot_be_cs(A).
 
 % Sortes possiblement coopératives
-%ecs(CS) :- is_sort(CS), not cannot_be_cs(CS).
 1 {ecs(CS) : is_sort(CS)} 1.
 :- ecs(CS), cannot_be_cs(CS).
 is_process_of_ecs(J) :- is_process(CS,J), ecs(CS).
@@ -47,9 +46,14 @@ predec_ecs(A) :- ecs(CS), action(A,_,CS,_,_).
 % Définition et contraintes sur les coopérations
 cooperation(A,I,J) :- ecs(CS), action(A,I,CS,_,J).
 
-:- cooperation(A,I,J), ecs(CS), action(A,I,CS,J,_).
+%:- cooperation(A,I,J), ecs(CS), action(A,I,CS,J,_).
 temp_at_least_one_cooperation(A,J) :- is_process(A,I), is_process_of_ecs(J), predec_ecs(A), cooperation(A,I,J).
-:- is_process_of_ecs(J), is_sort(A), predec_ecs(A), not temp_at_least_one_cooperation(A,J).
+temp_at_least_one_cooperation_on(A,I) :- is_process(A,I), is_process_of_ecs(J), predec_ecs(A), cooperation(A,I,J).
+%:- is_process_of_ecs(J), is_sort(A), predec_ecs(A), not temp_at_least_one_cooperation(A,J).
+%:- is_process(A,I), predec_ecs(A), not temp_at_least_one_cooperation_on(A,I).
+% Finalement non : on n'impose pas qu'un processus d'une sc soit « utile »
+% ni qu'un processus d'un prédécesseur soit représenté par une configuration
+% FIXME: À vérifier en fonction des définitions du papier
 
 %cooperative_sort(CS,P) :- ecs(CS), sort(CS,P).
 cooperation(CS,A,I,J) :- ecs(CS), cooperation(A,I,J).

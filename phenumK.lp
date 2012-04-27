@@ -90,11 +90,14 @@ at_least_one_cooperation_debug(CS,A,J) :- is_process(A,I), is_process_of_cs(CS,J
 
 
 %%% Résolution de l'énumération des paramètres possibles
-% Au moins une valeur par paramètre
-1 {enum_param(A,P,V) : gene_levels(A,V)} :- is_gene(A), param_label(A,P).
-% Restriction aux plages trouvées pour les paramètres déjà inférés
+% Reprendre la valeur des paramètres inférés
 infered_param(A,P) :- param(A,P,_).
-:- enum_param(A,P,V), infered_param(A,P), not param(A,P,V).
+enum_param(A,P,V) :- infered_param(A,P), param(A,P,V).
+% Au moins une valeur par paramètre
+1 {enum_param(A,P,V) : gene_levels(A,V)} :- is_gene(A), param_label(A,P), not infered_param(A,P).
+%% Restriction aux plages trouvées pour les paramètres déjà inférés
+%infered_param(A,P) :- param(A,P,_).
+%:- enum_param(A,P,V), infered_param(A,P), not param(A,P,V).
 % Bornes supérieure et inférieure
 temp_has_predec(A) :- is_predec(_,A).
 enum_param(A,P,0) :- min_active(A,P), temp_has_predec(A).
