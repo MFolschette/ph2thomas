@@ -65,6 +65,7 @@ at_least_one_cooperation_debug(CS,A,J) :- is_process(A,I), is_process_of_cs(CS,J
 :- edge(A,_,I,_), not is_process(A,I).
 :- edge(_,_,_,B), not is_gene(B).
 :- edge(_,S,_,_), S != "positive", S != "negative", S != "+", S != "-".
+:- edge(_,"?",_).
 
 % Sur le paramètre
 :- ka(A), not is_gene(A).

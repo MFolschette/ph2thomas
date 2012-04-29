@@ -292,12 +292,14 @@ let nodes = (nodupes (List.map (fun a -> fst (parse_for_string a))
 (* Tables des arcs positifs et négatifs *)
 let edges_act = Hashtbl.create (2 * (List.length nodes)) ;;
 let edges_inh = Hashtbl.create (2 * (List.length nodes)) ;;
+let edges_nos = Hashtbl.create (2 * (List.length nodes)) ;;
 
 let update_edge e =
   let (ea, sign, threshold, eb) = e in
     match sign with
     | "+" -> Hashtbl.add edges_act (ea, eb) threshold
     | "-" -> Hashtbl.add edges_inh (ea, eb) threshold
+    | "?" -> Hashtbl.add edges_nos (ea, eb) 0
     | _ -> raise (Parsing_error ("update_edge: Unknown edge sign: " ^ sign))
 ;;
 
@@ -321,8 +323,9 @@ let iterator sign ee threshold =
         let old_edge = Hashtbl.find edges (ea, eb) in
           if (fst (old_edge)) != sign
             then (
-              prerr_endline ("Error: Edge " ^ ea ^ " -> " ^ eb ^ " has both signs (+ and -)") ;
-              raise Result_error
+              Hashtbl.replace edges (ea, eb) ("?", 0)
+              (* prerr_endline ("Error: Edge " ^ ea ^ " -> " ^ eb ^ " has both signs (+ and -)") ;
+              raise Result_error *)
             ) else
               Hashtbl.replace edges (ea, eb) (sign, min threshold (snd old_edge))
       ) else
@@ -332,16 +335,31 @@ in
   Hashtbl.iter (iterator "-") edges_inh
 ;;
 
+let iterator ee _ =
+  let (ea, eb) = ee in
+    Hashtbl.replace edges (ea, eb) ("?", 0)
+in
+  Hashtbl.iter iterator edges_nos
+;;
+
 let string_of_edge ee st =
   let (ea, eb) = ee in
     let (sign, threshold) = st in
-      "edge(\"" ^ ea ^ "\",\"" ^ sign ^ "\"," ^ (string_of_int threshold) ^ ",\"" ^ eb ^ "\").\n"
+      "edge(\"" ^ ea ^ "\",\"" ^ sign ^ "\"," ^ 
+      ( if (String.compare sign "?") != 0
+          then (string_of_int threshold) ^ ","
+          else "" ) ^
+      "\"" ^ eb ^ "\").\n"
 ;;
 
 let string_of_edge_DOT ee st =
   let (ea, eb) = ee in
     let (sign, threshold) = st in
-      ea ^ " -> " ^ eb ^ "[label=\"" ^ sign ^ (string_of_int threshold) ^ "\"];\n"
+      ea ^ " -> " ^ eb ^ "[label=\"" ^ sign ^ 
+      ( if (String.compare sign "?") != 0
+          then string_of_int threshold
+          else "" ) ^
+      "\"];\n"
 ;;
 
 
@@ -371,7 +389,7 @@ if (String.length fichier_IG) != 0
 
 
 (** Fichier DOT de sortie **)
-if (String.length fichier_DOT) != 0
+if ((String.length fichier_DOT) != 0) && ((String.compare fichier_DOT "-") != 0)
   then ( let sortie_DOT = open_out fichier_DOT 
     in
       output_string sortie_DOT "digraph ig {\n" ;

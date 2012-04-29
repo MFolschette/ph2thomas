@@ -53,9 +53,6 @@ temp_at_least_one_cooperation(A,J) :- is_process(A,I), is_process_of_ecs(J), pre
 :- is_process_of_ecs(J), is_sort(A), predec_ecs(A), not temp_at_least_one_cooperation(A,J).
 
 % Contrainte : un unique point fixe par config
-% FIXME: À revoir pour coller à la définition du papier
-%        (énumérer les configurations des prédécesseurs directs)
-%ep(CS,A,I) :- is_process(A,I), is_process(A,J), predec_ecs(A,CS), not ep(CS,A,J), J != I.
 1 {ep(A,I) : is_process(A,I)} 1 :- predec_ecs(A).
 ecs_not_p(J) :- is_process_of_ecs(J), ep(A,I), not cooperation(A,I,J).
 ecs_p(J) :- is_process_of_ecs(J), not ecs_not_p(J).
