@@ -77,7 +77,7 @@ is_ph_predec_proj_cs(CS,B) :- temp_is_ph_predec_proj(CS,B), is_cs(CS), is_gene(B
 p_ea(AI) :- ea(A), is_process(A,AI).
 1 {eb(B) : is_gene(B)} 1.
 
-% Sélection d'une configuration de tous les autre prédécesseurs
+% Sélection d'une configuration de tous les autres prédécesseurs
 seac(C) :- is_gene(C), eb(B), is_ph_predec_proj(C,B), not ea(C).
 1 {seac_select(C,I) : is_process(C,I)} 1 :- seac(C).
 seac_p(AI,C,I) :- seac_select(C,I), p_ea(AI).
@@ -88,14 +88,15 @@ seac_p(AI,CS,I) :- p_ea(AI), eb(B), is_ph_predec_proj_cs(CS,B), is_process_of_cs
 % Sélection uniquement de ea et de ses successeurs
 seac_proj(AI,CS,I) :- seac_p(AI,CS,I), temp_is_ph_predec_proj(A,CS), ea(A), is_cs(CS).
 seac_proj(AI,A,I) :- seac_p(AI,A,I), ea(A).
-auto_influence :- eb(B), seac_proj(_,CS,_), temp_is_ph_predec_proj(B,CS).
+%debug_auto_influence(CS) :- eb(B), seac_proj(_,CS,_), temp_is_ph_predec_proj(B,CS).
+auto_influence :- eb(B), seac_proj(_,CS,_), temp_is_ph_predec_proj(B,CS), is_cs(CS).
+auto_influence :- ea(B), eb(B).
 %auto_influence :- eb(B), is_ph_predec_proj(B,B).
 
 % Actions considérées : celles partant des seac_proj(C,I) (H^gamma)
 proj_action(AI,A,I,B,J,K) :- action(A,I,B,J,K), seac_proj(AI,A,I), eb(B).
 % L^*_{b,a_i}
 gi_exists_hit(AI,J) :- p_ea(AI), eb(B), proj_action(AI,_,_,B,J,_).
-% Précédemment : tous cas confondus
 % Cas sans auto-influence : J = processus focaux
 gi_sL_foc(AI,J) :- eb(B), p_ea(AI), is_process(B,J), not gi_exists_hit(AI,J), not auto_influence.
 % Cas avec auto-influence : J = +1/0/-1 (selon sens d'attraction)
@@ -159,7 +160,7 @@ warning("NOT AN ACTIVATION NOR INHIBITION [not gi_edge(A,+/-,B)]",A,B) :- ea(A),
 #show ea_p/2.
 #show eb/1.
 #show seac/1.
-#show seac_p/3.
+%#show seac_p/3.
 #show seac_proj/3.
 #show proj_action/6.
 #show auto_influence/0.
@@ -176,8 +177,10 @@ warning("NOT AN ACTIVATION NOR INHIBITION [not gi_edge(A,+/-,B)]",A,B) :- ea(A),
 #show error/3.
 #show warning/3.
 %#show debug/3.
-#show debug_no_action/4.
+%#show debug_no_action/4.
+#show debug_auto_influence/1.
 
+%#show temp_is_ph_predec_proj/2.
 %#show temp_proj_action/5.
 %#show gi_exists_hit/2.
 %#show temp_gi_focal_is_attractor/3.
