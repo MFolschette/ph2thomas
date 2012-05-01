@@ -44,5 +44,5 @@ then
 fi
 
 echo "Calling phenumK.lp ..." >&2
-clingo 0 --verbose=0 phenumK.lp $2
+clingo 0 --verbose=1 phenumK.lp $2
 
